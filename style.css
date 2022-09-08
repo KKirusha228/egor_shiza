@@ -1,133 +1,159 @@
 @keyframes v11 {
-    from{
-        transform: translateX(-250px) translateY(-250px) rotateY(0deg);
+    from {
+        transform: translateX(-100px) translateY(-100px) rotateY(0deg);
     }
-    to{
-        transform: translateX(-250px) translateY(-250px) rotateY(360deg);
+
+    to {
+        transform: translateX(-100px) translateY(-100px) rotateY(360deg);
     }
 }
+
 @keyframes v13 {
-    from{
-        transform: translateX(250px) translateY(-250px) rotateY(0deg);
+    from {
+        transform: translateX(100px) translateY(-100px) rotateY(0deg);
     }
-    to{
-        transform: translateX(250px) translateY(-250px) rotateY(-360deg);
+
+    to {
+        transform: translateX(100px) translateY(-100px) rotateY(-360deg);
     }
 }
+
 @keyframes v31 {
-    from{
-        transform: translateX(-250px) translateY(250px) rotateY(0deg);
+    from {
+        transform: translateX(-100px) translateY(100px) rotateY(0deg);
     }
-    to{
-        transform: translateX(-250px) translateY(250px) rotateY(-360deg);
+
+    to {
+        transform: translateX(-100px) translateY(100px) rotateY(-360deg);
     }
 }
+
 @keyframes v33 {
-    from{
-        transform: translateX(250px) translateY(250px) rotateY(0deg);
+    from {
+        transform: translateX(100px) translateY(100px) rotateY(0deg);
     }
-    to{
-        transform: translateX(250px) translateY(250px) rotateY(360deg);
+
+    to {
+        transform: translateX(100px) translateY(100px) rotateY(360deg);
     }
 }
+
 @keyframes v22 {
-    from{
-        transform:rotateZ(0);
+    from {
+        transform: rotateZ(0);
     }
-    to{
-        transform:rotateZ(360deg);
+
+    to {
+        transform: rotateZ(360deg);
     }
 }
+
 @keyframes v12 {
-    from{
-        transform: rotateX(0) translateY(-250px);
+    from {
+        transform: rotateX(0) translateY(-100px);
         z-index: -5;
     }
-    
-    to{
-        transform: rotateX(360deg) translateY(-250px);
+
+    to {
+        transform: rotateX(360deg) translateY(-100px);
         z-index: 5;
     }
 }
+
 @keyframes v32 {
-    from{
-        transform: rotateX(0) translateY(250px);
+    from {
+        transform: rotateX(0) translateY(100px);
         z-index: 5;
     }
-   
-    to{
-        transform: rotateX(360deg) translateY(250px);
+
+    to {
+        transform: rotateX(360deg) translateY(100px);
         z-index: -5;
     }
 }
+
 @keyframes v21 {
-    from{
-        transform: rotateY(0) translateX(-250px);
+    from {
+        transform: rotateY(0) translateX(-100px);
         z-index: 5;
     }
-    to{
-        transform: rotateY(360deg) translateX(-250px);
+
+    to {
+        transform: rotateY(360deg) translateX(-100px);
         z-index: -5;
     }
 }
+
 @keyframes v23 {
-    from{
-        transform: rotateY(0) translateX(250px);
+    from {
+        transform: rotateY(0) translateX(100px);
         z-index: -5;
     }
-    to{
-        transform: rotateY(360deg) translateX(250px);
+
+    to {
+        transform: rotateY(360deg) translateX(100px);
         z-index: 5;
     }
 }
-body{
+
+body {
     perspective: 700px;
     width: 100vw;
     height: 100vh;
 }
+
 div {
     background: black;
     position: absolute;
     top: calc(50% - 125PX);
     left: calc(50% - 125px);
     animation-delay: 5s;
-    width: 250px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
 }
-.v11{
+
+.v11 {
     animation: v11 5s linear infinite;
     background: url(11.jpg) 100%/100%;
-    
+
 }
-.v13{
+
+.v13 {
     animation: v13 5s linear infinite;
-    background: url(13.jpg)  100%/100%;
+    background: url(13.jpg) 100%/100%;
 }
-.v31{
+
+.v31 {
     animation: v31 5s linear infinite;
     background: url(31.jpg) 100%/100%;
 }
-.v33{
+
+.v33 {
     animation: v33 5s linear infinite;
     background: url(33.jpg) 100%/100%;
 }
-.v22{
+
+.v22 {
     animation: v22 5s linear infinite;
     background: url(22.jpg) 100%/100%;
 }
-.v12{
+
+.v12 {
     animation: v12 5s linear infinite;
     background: url(12.jpg) 100%/100%;
 }
-.v32{
+
+.v32 {
     animation: v32 5s linear infinite;
     background: url(32.jpg) 100%/100%;
 }
-.v21{
+
+.v21 {
     animation: v21 5s linear infinite;
     background: url(21.jpg) 100%/100%;
 }
-.v23{
+
+.v23 {
     animation: v23 5s linear infinite;
     background: url(23.jpg) 100%/100%;
 }
