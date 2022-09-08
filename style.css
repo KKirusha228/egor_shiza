@@ -105,7 +105,7 @@ body {
 div {
     background: black;
     position: absolute;
-    top: calc(50% - 50px);
+    top: calc(50% - 50PX);
     left: calc(50% - 50px);
     animation-delay: 5s;
     width: 100px;
